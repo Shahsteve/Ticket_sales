@@ -1,0 +1,52 @@
+Name: Steven Shah
+Date Created: 8/25/2024
+
+---
+
+Program Description: 
+This program lets user pick between getting 1 and 4 tickets at a time up to 20 altogether.
+This program counts how many buyers there are as well as tickets sold.
+This program tell users when the tickets each 20 how many buys there were total.
+
+---
+
+Logical Steps:  
+1. Uses while loop to continue iterating until accumulator meets parameter. 
+2. Uses conditional statement 'if' to ensure user picks between acceptable integers and user doesn't
+pick more than total amount.
+
+---
+
+Variables:  
+1. tickets_sold : variable accumulator starting at 0 to count tickets sold.
+2. customers : variable accumulator starting at 0 to count how many total customers used program.
+
+---
+
+Functions:
+1. Function Name: print()  
+   Description: This function displays message preprogrammed in. 
+   Parameters: Parameters are while the amount of tickets sold is less than 20. 
+   Returns: Massage that helps user with program.
+
+2. Function Name: int() 
+   Description: This function allows only whole numbers to be used in the following function.  
+   Parameters: Whole numbers only 
+   Returns: Value stores in program.
+
+3. Function Name: input() 
+   Description: This function allows the user to enter data that the program will read.  
+   Parameters: Integers between 1 and 4 only  
+   Returns: Returns a message letting user know how many tickets are left available.
+
+4. Function Name: str()  
+   Description: This function passes the argument in parenthesis as a string to be read.  
+   Parameters: Parameters are the calculation in the argument (20 - number of tickets sold).  
+   Returns: Returns data to the print function to display.
+
+---
+
+Link to repository: https://github.com/Shahsteve/ticket_sales
+
+---
+
